@@ -1,6 +1,5 @@
 ---
 applications:
-- name: java-buildpack
-  memory: 512M
-  instances: 1
-  
+- name: simple-go-web-app
+  disk: 256M
+  memory: 128M
