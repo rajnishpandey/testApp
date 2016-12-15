@@ -1,5 +1,8 @@
----
 applications:
-- name: simple-go-web-app
-  disk: 256M
-  memory: 128M
+- name: java_buildpack
+  host: java_buildpack
+  buildpack: https://github.com/rajnishpandey/javaBuildPack
+  instances: 2
+  memory: 512M
+  disk_quota: 512M
+  path: .
