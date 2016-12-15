@@ -1,8 +1,0 @@
-#!/bin/bash
-# vim: set ft=sh
-
-set -e
-
-export GOPATH=$(dirname $(realpath $0))/Godeps/_workspace
-
-go test ./...
